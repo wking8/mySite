@@ -57,12 +57,17 @@ h1 {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 10px;
 }
 p {
-    font-size: 25px;
+    font-size: 22px;
     padding: 5px;
 }
 
@@ -75,17 +80,20 @@ p {
 
 }                                
  .bottom-container {
-    height: 200px;
-    width: 200px;
-    background-color: red;
+
 }
 .middle-container {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+    text-align: center;
+    margin-top: 10px;
 }
 .mtn-image {
     padding-top: 50px;
+}
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
 }
 .top-cloud {
     position: absolute;
