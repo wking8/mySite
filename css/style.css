@@ -3,43 +3,123 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
-    font-family: 'Open Sans', sans-serif;
+	vertical-align: baseline;
+	font-family: 'Open Sans', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
+	color: #40514e;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -50,90 +130,113 @@ table {
 
 /* TAG SELECTORS */
 
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: #eaf6f6;
+}
 h1 {
-    font-size: 5.625rem;
-    padding-bottom: 20px;
-    margin-top: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	padding-bottom: 20px;
+	margin-top: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: 800;
-    padding: 20px;
-    color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 800;
+	padding: 20px;
+	color: #66bfbf;
 }
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding: 10px;
-    color: #11999E;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	padding: 10px;
+	color: #11999e;
 }
 hr {
-    width: 95%;
-    margin: 25px;
+	border: dotted #eaf6f6 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
 }
 p {
-    font-size: 22px;
-    padding: 5px;
+	font-size: 22px;
+	padding: 5px;
+	line-height: 1.5;
 }
-
 
 /* CLASS SELECTORS */
 .bottom-cloud {
-    position: absolute;
-    left: 825px;
-    bottom: 555px;
-
-}                                
- .bottom-container {
-    color: #11999e;
+	position: absolute;
+	left: 825px;
+	bottom: 555px;
+}
+.bottom-container {
+	background-color: #66bfbf;
+    padding: 50px 0 20px;
 }
 .code-img {
-    width: 15%;
-    float: left;
-    margin-right: 30px;
+	width: 15%;
+	float: left;
+	margin-right: 30px;
+}
+.contact-me h2 {
+	font-size: 50px;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.footer-link {
+    font-size: 20px;;
 }
 .gif {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+.intro {
+	width: 30%;
+	margin: auto;
 }
 .middle-container {
-    text-align: center;
-    margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
 }
 .mtn-image {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 .profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
 }
 .skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 1.5;
-    padding-bottom: 30px;
-
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	padding-bottom: 30px;
 }
 .top-cloud {
-    position: absolute;
-    top: 152px;
-    right: 885px;
+	position: absolute;
+	top: 152px;
+	right: 885px;
 }
 .top-container {
-    background-color: #fcf9ea;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 1273px;
-    position: relative;
+	background-color: #fcf9ea;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 1273px;
+	position: relative;
 }
-
 
 /* ID SELECTORS */
